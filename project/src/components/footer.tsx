@@ -15,7 +15,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4 text-foreground">Contact Us</h3>
             <div className="space-y-2">
               <p className="text-muted-foreground flex items-center gap-2">
-                Email: nextgennexus22@gmail.com
+                Email: nexusnextgen22@gmail.com
               </p>
               <p className="text-muted-foreground flex items-center gap-2">
                 Phone: +91 94911 39648

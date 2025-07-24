@@ -43,6 +43,22 @@ const teamMembers = [
     image: '/nextgen-nexus/images/manasa-nn.png',
     linkedin: 'https://www.linkedin.com/in/pandala-manasa/',
   },
+  {
+    id: 7,
+    name: 'Om Sudhamsh Padma',
+    role: 'Graphic Illustrations & Managing',
+    bio: 'Creating graphics and social posts that help connect tech enthusiasts and support thoughtful, accessible learning opportunities.',
+    image: '/nextgen-nexus/images/Sudhamsh.JPG',
+    linkedin: 'https://www.linkedin.com/in/omsudhamsh/',
+  },
+  {
+    id: 8,
+    name: 'Vishal Dharmini',
+    role: 'Graphic Illustrations & Managing',
+    bio: 'Designing visual content and engagement posts to support tech communities and encourage learning through creative communication.',
+    image: '/nextgen-nexus/images/Vishal.jpg',
+    linkedin: 'https://www.linkedin.com/in/vishal-dharmini/',
+  },
 ];
 
 export default function TeamSection() {

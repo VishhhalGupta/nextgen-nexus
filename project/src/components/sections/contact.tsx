@@ -79,7 +79,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium mb-1 text-foreground">Email Us</h3>
-                  <p className="text-muted-foreground">nextgennexus22@gmail.com</p>
+                  <p className="text-muted-foreground">nexusnextgen22@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">

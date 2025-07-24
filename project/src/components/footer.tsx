@@ -18,7 +18,7 @@ export default function Footer() {
                 Email: nextgennexus22@gmail.com
               </p>
               <p className="text-muted-foreground flex items-center gap-2">
-                Phone: +91 XXXXX XXXXX
+                Phone: +91 94911 39648
               </p>
             </div>
           </div>

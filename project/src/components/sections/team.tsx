@@ -117,7 +117,7 @@ export default function TeamSection() {
                 Be part of our mission to empower the next generation through technology and innovation. Join us in creating impactful experiences.
               </p>
               <a
-                href="https://forms.gle/dK7DkR5SXfEoYjYB8"
+                href="https://chat.whatsapp.com/IHu2od4UJ1XIZJ4bJRNXtb?mode=r_c"
                 target="_blank"
                 rel="noopener noreferrer"
               >

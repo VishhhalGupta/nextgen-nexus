@@ -1,6 +1,6 @@
 # 🚀 NextGen Nexus
 
-Welcome to the official website of **NextGen Nexus** – a thriving and futuristic tech community based in Hyderabad. This platform is designed to showcase the community's mission, events, team, and vision. Built with love and precision by [Om Sudhamsh](https://github.com/omsudhamsh).
+Welcome to the official website of **NextGen Nexus** – a thriving and futuristic tech community based in Hyderabad. This platform is designed to showcase the community's mission, events, team, and vision. Built with love and precision by [Om Sudhamsh](https://github.com/omsudhamsh),[Vishal Dharmini](https://github.com/VishhhalGupta) .
 
 ---
 
@@ -57,7 +57,7 @@ We're just getting started! If you'd like to improve the website or suggest new 
 
 ## 🧑‍💻 Developed By
 
-Built and maintained by Om Sudhamsh with ❤️ for the NextGen Nexus community.
+Built and maintained by Om Sudhamsh  and Vishal Dharmini with ❤️ for the NextGen Nexus community.
 
 ---
 

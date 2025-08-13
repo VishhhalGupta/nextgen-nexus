@@ -71,7 +71,7 @@ export default function ContactSection() {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Info Column */}
-          <div>
+          {/* <div>
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
                 <div className="bg-primary/10 p-3 rounded-full">
@@ -101,7 +101,7 @@ export default function ContactSection() {
                 <a href="https://www.linkedin.com/company/nextgennexus/" className="bg-primary p-3 rounded-full text-primary-foreground hover:bg-primary/90 transition-colors" aria-label="LinkedIn"><Linkedin className="h-5 w-5" /></a>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* Form Column */}
           <div className="bg-card rounded-lg p-6 shadow-sm border border-primary/20">
             <h3 className="text-xl font-semibold mb-6 text-foreground">Send Us a Message</h3>
@@ -128,7 +128,6 @@ export default function ContactSection() {
                 {status.submitting ? 'Sending...' : 'Send Message'}
               </Button>
             </form>
-            {/* Submission Status Message */}
             {status.message && (
               <p className={`mt-4 text-sm text-center ${status.error ? 'text-red-500' : 'text-green-500'}`}>
                 {status.message}

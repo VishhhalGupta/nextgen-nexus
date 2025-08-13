@@ -5,8 +5,8 @@ export default function Hero() {
     <section className="relative py-20 md:py-32 overflow-hidden">
       <div className="absolute inset-0 bg-white dark:bg-black/20" />
       <div className="absolute inset-0">
-        <div className="hidden dark:block bg-[url('/nextgen-nexus/images/GroupPhoto.JPG')] bg-cover bg-center opacity-20 h-full w-full transition-all duration-300 group-hover:blur-sm" />
-        <div className="dark:hidden block bg-[url('/nextgen-nexus/images/GroupPhoto.JPG')] bg-cover bg-center opacity-70 h-full w-full transition-all duration-300 group-hover:blur-sm" />
+        <div className="hidden dark:block bg-[url('/nextgen-nexus/images/GroupPhoto.JPG')] bg-cover bg-center opacity-00 h-full w-full transition-all duration-300 group-hover:blur-sm" />
+        <div className="dark:hidden block bg-[url('/nextgen-nexus/images/GroupPhoto.JPG')] bg-cover bg-center opacity-00 h-full w-full transition-all duration-300 group-hover:blur-sm" />
       </div>
       <div className="container relative mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center group">
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
@@ -14,7 +14,7 @@ export default function Hero() {
             Connect. Engage. Inspire.
           </span>
         </h1>
-        <p className="text-xl md:text-2xl max-w-3xl mb-8 text-muted-foreground">
+        <p className="text-xl md:text-2xl max-w-3xl mb-8 text-dark-foreground text-shadow-#00000090">
           Join our vibrant community and discover amazing events that bring people together.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">

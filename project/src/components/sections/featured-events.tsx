@@ -103,9 +103,10 @@ export default function FeaturedEvents() {
           ))}
         </div>
         <div className="text-center mt-12">
-          <Button variant="outline" size="lg">
+          <a href="https://chat.whatsapp.com/IHu2od4UJ1XIZJ4bJRNXtb?mode=r_c"><Button variant="outline" size="lg">
             View All Events
           </Button>
+          </a>
         </div>
       </div>
     </section>

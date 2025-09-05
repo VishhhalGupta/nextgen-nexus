@@ -22,12 +22,15 @@ export default function JoinUsSection() {
                 Get access to exclusive events, connect with like-minded individuals, and make a difference in your community.
               </p>
             </div>
-            <Button 
-              size="lg" 
-              className="w-full bg-primary text-primary-foreground hover:bg-primary/90 text-lg h-12"
-            >
-              Join Now
-            </Button>
+            <a
+                href="https://chat.whatsapp.com/IHu2od4UJ1XIZJ4bJRNXtb?mode=r_c"
+                target="_blank"
+                rel="noopener noreferrer">
+                <Button 
+                  className="bg-primary text-primary-foreground hover:bg-primary/90 text-base px-6 py-2 h-auto relative group-hover:shadow-[0_0_15px_rgba(0,40,240,0.5)] transition-shadow duration-300">
+                  Join Now
+                </Button>
+            </a>
           </div>
         </div>
       </div>

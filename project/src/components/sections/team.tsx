@@ -8,7 +8,7 @@ const teamMembers = [
     name: 'L. Harsha Vardhan',
     role: 'Founder & CEO',
     bio: 'Tech enthusiast and community builder passionate about empowering the next generation through technology and innovation.',
-    image: '/nextgen-nexus/images/harshaanna-nn.png',
+    image: '/images/harshaanna-nn.png',
     linkedin: 'https://www.linkedin.com/in/harsha-vardhan-lankalapalli/',
   },
   {
@@ -16,7 +16,7 @@ const teamMembers = [
     name: 'Dhanush Goud',
     role: 'Co-Founder',
     bio: 'Technology advocate focused on creating impactful learning experiences and fostering collaboration within the tech community.',
-    image: '/nextgen-nexus/images/dhanushanna-nn.png',
+    image: '/images/dhanushanna-nn.png',
     linkedin: 'https://www.linkedin.com/in/dhanush-goud/',
   },
   {
@@ -24,7 +24,7 @@ const teamMembers = [
     name: 'Gayatri G',
     role: 'Operational Lead',
     bio: 'Strategic planner and community organizer dedicated to creating engaging tech events and fostering knowledge sharing.',
-    image: '/nextgen-nexus/images/gayatrig-nn.png',
+    image: '/images/gayatrig-nn.png',
     linkedin: 'https://www.linkedin.com/in/g-gayatri192005/',
   },
   {
@@ -32,7 +32,7 @@ const teamMembers = [
     name: 'Shruthi Kolluri',
     role: 'Co-Operational Lead',
     bio: 'Community engagement specialist focused on building bridges between technology enthusiasts and creating learning opportunities.',
-    image: '/nextgen-nexus/images/shruthi-nn.png',
+    image: '/images/shruthi-nn.png',
     linkedin: 'https://www.linkedin.com/in/sruthi-kolluri/',
   },
   {
@@ -40,7 +40,7 @@ const teamMembers = [
     name: 'Manasa Pandla',
     role: 'Esports Manager',
     bio: 'Community engagement specialist focused on building bridges between technology enthusiasts and creating learning opportunities.',
-    image: '/nextgen-nexus/images/manasa-nn.png',
+    image: '/images/manasa-nn.png',
     linkedin: 'https://www.linkedin.com/in/pandala-manasa/',
   },
   {
@@ -48,7 +48,7 @@ const teamMembers = [
     name: 'Om Sudhamsh Padma',
     role: 'Graphic Illustrations & Managing',
     bio: 'Creating graphics and social posts that help connect tech enthusiasts and support thoughtful, accessible learning opportunities.',
-    image: '/nextgen-nexus/images/Sudhamsh.JPG',
+    image: '/images/Sudhamsh.JPG',
     linkedin: 'https://www.linkedin.com/in/omsudhamsh/',
   },
   {
@@ -56,7 +56,7 @@ const teamMembers = [
     name: 'Vishal Dharmini',
     role: 'Graphic Illustrations & Managing',
     bio: 'Designing visual content and engagement posts to support tech communities and encourage learning through creative communication.',
-    image: '/nextgen-nexus/images/Vishal.jpg',
+    image: '/images/Vishal.jpg',
     linkedin: 'https://www.linkedin.com/in/vishal-dharmini/',
   },
 ];
@@ -104,6 +104,7 @@ export default function TeamSection() {
         </div>
 
         {/* Centered Join Us Card */}
+        <section id="join-now">
         <div className="mt-16">
           <Card className="overflow-hidden bg-muted/20 border-none hover:shadow-lg transition-all max-w-2xl mx-auto relative group">
             <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-primary/5 to-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-700 blur-xl"></div>
@@ -130,6 +131,7 @@ export default function TeamSection() {
             </CardContent>
           </Card>
         </div>
+        </section>
       </div>
     </section>
   );

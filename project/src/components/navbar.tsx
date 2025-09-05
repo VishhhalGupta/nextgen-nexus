@@ -3,6 +3,8 @@ import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { ModeToggle } from './mode-toggle';
+import DarkLogo from './images/nextgen_logo.png';
+import LightLogo from './images/nextgen_logo_light.png';
 
 const navItems = [
   { name: 'Home', href: '#' },
@@ -37,13 +39,19 @@ export default function Navbar() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <a href="#" className="flex items-center space-x-2">
-              <span className="text-2xl font-bold text-foreground">
-                Ne<span className="text-primary" style={{color: '#0326f3'}}>x</span>tgen Ne<span className="text-primary" style={{color: '#0326f3'}}>x</span>us
-              </span>
+              <img
+                src={LightLogo}
+                alt="Nextgen Nexus Logo Light"
+                className="h-10 w-auto rotate-[30deg] scale-[2.5] dark:hidden"
+              />
+              <img
+                src={DarkLogo}
+                alt="Nextgen Nexus Logo Dark"
+                className="h-10 w-auto rotate-[30deg] scale-[2.5] hidden dark:block"
+              />
             </a>
           </div>
 
-          {/* Desktop navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
               <a
@@ -57,7 +65,6 @@ export default function Navbar() {
             <ModeToggle />
           </nav>
 
-          {/* Mobile menu button */}
           <div className="flex md:hidden">
             <ModeToggle />
             <Button
@@ -67,17 +74,12 @@ export default function Navbar() {
               onClick={() => setIsOpen(!isOpen)}
             >
               <span className="sr-only">Toggle menu</span>
-              {isOpen ? (
-                <X className="h-6 w-6" />
-              ) : (
-                <Menu className="h-6 w-6" />
-              )}
+              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </Button>
           </div>
         </div>
       </div>
 
-      {/* Mobile navigation */}
       {isOpen && (
         <div className="md:hidden">
           <div className="space-y-1 px-4 pb-3 pt-2 bg-background/90 backdrop-blur-lg">
